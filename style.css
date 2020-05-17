@@ -1,0 +1,36 @@
+/* SCSS inheritance */
+#profile_picture, .table {
+  margin: auto;
+}
+
+body {
+  padding-top: 100px;
+}
+
+#profile_picture {
+  border: 2.5px solid black;
+  width: 50%;
+  display: block;
+}
+
+@media screen and (min-width: 992px) {
+  #text, #logo {
+    padding-left: 30px;
+  }
+}
+
+/*Courses.html style*/
+.table-space {
+  padding-top: 25px;
+}
+
+.table-name {
+  text-align: center;
+  font-size: 16px;
+}
+
+.table {
+  font-size: 16px;
+  width: 95%;
+}
+/*# sourceMappingURL=style.css.map */
