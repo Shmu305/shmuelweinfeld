@@ -7,6 +7,9 @@ body{
 	padding-top: 100px;
 }
 
+.about {
+	color: black;
+}
 
 body.bg{
 	background-image: url('ocean.jpg');
@@ -21,29 +24,30 @@ body.senior {
 	background-repeat: no-repeat;
 	background-size: cover;
 	
+	
 }
 
-#graph {
+#prototype {
 	border: 4px solid black;
 	width: 80%;
 	display: block;
 	@extend %automargin;
-	z-index: 1;
-	
+	text-align: center;
 }
 
-.overlay{
-	background-color: white;
-	opacity: 0.85;
+.senior .container {
+	background-color: rgba(255, 255, 255, 0.85);
 	border: 1.5px solid black;
 }
 
+
 #profile_picture {
-	border: 2.5px solid black;
-	width: 50%;
+	width: 100%;
 	display: block;
-	@extend %automargin;
+	border:2px solid #021a40;
+	margin: 10px;
 }
+
 @media screen and (min-width: 992px){
 	#text, #logo {
 		padding-left:30px;
